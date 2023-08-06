@@ -1,0 +1,295 @@
+public class P8 {
+	public static void main(String[]args) {
+		int n=5;
+		for(int i=1;i<=n;i++) {
+			
+			for(int j=1;j<=i;j++) {
+				
+				System.out.print("*");
+			}
+			System.out.println(" ");
+		}
+	}
+
+
+}
+
+* 
+** 
+*** 
+**** 
+*****
+
+//
+public class P8 {
+	public static void main(String[]args) {
+		int n=5;
+		for(int i=1;i<=n;i++) {
+			
+			for(int j=1;j<=i;j++) {
+				
+				System.out.print(i%2);
+			}
+			System.out.println();
+		}
+	}
+
+
+}
+1
+00
+111
+0000
+11111
+
+
+//
+
+public class P8 {
+	public static void main(String[]args) {
+		int n=5;
+		for(int i=1;i<=n;i++) {
+			
+			for(int j=1;j<=i;j++) {
+				
+				System.out.print(j);
+			}
+			System.out.println();
+		}
+	}
+
+
+}
+
+
+1
+12
+123
+1234
+12345
+
+//public class P8 {
+	public static void main(String[]args) {
+		int n=5;
+		for(int i=1;i<=n;i++) {
+			
+			for(int j=1;j<=i;j++) {
+				
+				System.out.print(j%2);
+			}
+			System.out.println();
+		}
+	}
+
+
+}
+
+1
+10
+101
+1010
+10101
+
+//
+
+public class P8 {
+	public static void main(String[]args) {
+		int n=5;
+		for(int i=1;i<=n;i++) {
+			
+			for(int j=i;j>=1;j--) {
+				
+				System.out.print(j);
+			} 
+			System.out.println();
+		}
+	}
+
+
+}
+
+
+1
+21
+321
+4321
+54321
+
+//
+
+public class P9 {
+	
+		public static void main(String[]args) {
+			int n=5;
+			for(int i=n;i>=1;i--) {
+		
+
+				for(int j=i;j<=n;j++) {
+					
+					System.out.print(j);
+				} 
+				System.out.println();
+			}
+		}
+
+
+	}
+
+
+
+
+5
+45
+345
+2345
+12345
+
+//public class P9 {
+	
+		public static void main(String[]args) {
+			int n=5;
+			for(int i=n;i>=1;i--) {
+		
+
+				for(int j=n;j>=i;j--) {
+					
+					System.out.print(j);
+				} 
+				System.out.println();
+			}
+		}
+
+
+	}
+
+
+
+5
+54
+543
+5432
+54321
+//public class P9 {
+	
+		public static void main(String[]args) {
+int n=5;
+			
+			for(int i=1;i<=n;i++) {
+				
+				for(int j=1;j<=i;j++) {
+					
+				System.out.print((char)(96+j)+" ");
+				
+				
+			}
+			System.out.println();
+			
+		}
+		}
+
+
+	}
+
+
+
+a 
+a b 
+a b c 
+a b c d 
+a b c d e 
+
+public class P9 {
+	
+		public static void main(String[]args) {
+int n=5;
+			
+			for(int i=n;i>=1;i--) {
+				
+				for(int j=n;j>=i;j--) {
+					
+				System.out.print((char)(96+j)+" ");
+				
+				
+			}
+			System.out.println();
+			
+		}
+		}
+
+
+	}
+
+
+e 
+e d 
+e d c 
+e d c b 
+e d c b a 
+
+
+//public class P9 {
+	
+		public static void main(String[]args) {
+        int n=5;
+			
+			for(int i=1;i<=n;i++) {
+				
+				for(int j=1;j<=i;j++) {
+					
+					if(j==1 || i==n  || i==j ) {
+				System.out.print("*");
+				
+				
+			}else {
+				System.out.print("#");
+			}
+			
+			
+		}
+				System.out.println();
+		}
+
+
+		}}
+*
+**
+*#*
+*##*
+*****
+
+//public class P9 {
+	
+		public static void main(String[]args) {
+        int n=5;
+			
+        for(int i=1;i<=n;i++) {
+        	
+				//To print spaces
+				for(int s=1;s<=n-i;s++)
+				{
+					System.out.print(" ");
+				
+				
+			}
+				for(int j=1;j<=i;j++) {
+				System.out.print("*");
+			}
+				
+				 System.out.println();
+		}
+       
+		
+				
+		}
+
+
+		}
+
+
+    *
+   **
+  ***
+ ****
+*****
+//
+//
